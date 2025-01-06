@@ -2,8 +2,8 @@
 title: "外国人労働者を採用する5つのメリット"
 weight: 2
 draft: false
-description: ""
-slug: "empoy foreigner"
+description: "外国人労働者を採用する5つのメリット"
+slug: "employforeigner"
 ---
 日本の中小企業（SMEs）が外国人労働者を採用することには、以下の5つの主要なメリットがあります。
 

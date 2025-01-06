@@ -17,7 +17,7 @@
 
 [[main]]
   name = "外国人採用とは"
-  pageRef = "empoy foreigner"
+  pageRef = "employ-foreigner"
   weight = 10
 
 [[main]]

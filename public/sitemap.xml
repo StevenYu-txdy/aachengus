@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/empoy-foreigner/empoy-foreigner/</loc>
+    <loc>http://localhost:1313/ssw/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/empoy-foreigner/empoy-foreigner/</loc>
+    <loc>http://localhost:1313/employ-foreigner/nixon-challenge/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/empoy-foreigner/empoy-foreigner/</loc>
+    <loc>http://localhost:1313/employ-foreigner/employforeigner/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/employ-foreigner/chinese-driver/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/employ-foreigner/competitive/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -23,7 +33,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/empoy-foreigner/</loc>
+    <loc>http://localhost:1313/employ-foreigner/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,8 +2,8 @@
 title: "外国人労働者と競争力の強化"
 weight: 4
 draft: false
-description: ""
-slug: "empoy foreigner"
+description: "外国人労働者と競争力の強化"
+slug: "competitive"
 ---
 外国人労働者の採用は、企業の競争力を高めるだけでなく、地域経済にも大きな影響を与えます。当社は単なる雇用者としての役割にとどまらず、地域社会の一員として積極的に貢献する責任を果たしたいと考えています。
 
