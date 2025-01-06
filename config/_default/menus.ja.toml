@@ -10,26 +10,27 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+  name = "自動車運送業向けサービス"
+  pageRef = "service"
+  weight = 20
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+  name = "外国人採用とは"
+  pageRef = "empoy foreigner"
+  weight = 10
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "特定技能外国人"
+  parent = "自動車運送業向けサービス"
+  pageRef = "ssw"
+  weight = 10
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "導入の流れ"
+  parent = "自動車運送業向けサービス"
+  pageRef = "process"
+  weight = 20
 
 #[[subnavigation]]
 #  name = "An interesting topic"
@@ -42,15 +43,15 @@
 #  pageRef = "categories/awesome"
 #  weight = 20
 
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
+[[main]]
+  name = "よくある質問"
+  pageRef = "faq"
+  weight = 30
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[main]]
+  name = "無料お問い合わせ"
+  pageRef = "contact"
+  weight = 30
 
 
 # -- Footer Menu --
@@ -58,12 +59,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+ [[footer]]
+   name = "無料で資料を受け取る"
+   pageRef = "サービス資料無料ダウンロード"
+   weight = 10
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+ [[footer]]
+   name = "最短1ヶ月で入社実現可能"
+   pageRef = "categories"
+   weight = 20

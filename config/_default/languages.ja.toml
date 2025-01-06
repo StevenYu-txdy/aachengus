@@ -17,9 +17,9 @@ title = "Aacheng Ltd."
  [params.author]
    name = "世界の才能を活かし 日本の未来を動かす"
 #   email = "youremail@example.com"
-   image = "img/logo.png"
+#   image = "img/logo.png"
    imageQuality = 96
-   headline = "努力が報われない中国から、勤勉な人材が日本で新たな未来を求めています。その才能を活かし、日本の企業と共に成長を実現します。"
+   headline = "世界には、努力しても報われない環境で頑張り続ける人々がまだ数多く存在します。<br> 日本では、そのような勤勉な人材が正当に評価され、企業と共に新たな価値を創り出せる土壌が整いつつあります。<br>私たちはそんな人材と企業をつなぎ、日本を次のステージへ引き上げるお手伝いをしています。"
 #   bio = "A little bit about you"
    links = [
      { email = "info@aacheng.us" },
