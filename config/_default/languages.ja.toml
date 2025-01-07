@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ja"
 languageName = "Japanese" 
 weight = 1
-title = "Aacheng Ltd."
+title = "株式会社アーヘン"
 
 [params]
   displayName = "日本語"

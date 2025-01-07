@@ -1,13 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aacheng Ltd.</title>
+    <title>株式会社アーヘン</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Aacheng Ltd.</description>
+    <description>Recent content on 株式会社アーヘン</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright © 2025.Aacheng Ltd.</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>お問い合わせ</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;アーチェン株式会社 (Aachen Ltd.) 
+    &lt;div id=&#34;%E3%82%A2%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-aachen-ltd&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E3%82%A2%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-aachen-ltd&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;電話番号 070-9328-4415 
+    &lt;div id=&#34;%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7-070-9328-4415&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7-070-9328-4415&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;この番号はSMS専用です。お電話には対応しておりませんのでご了承ください。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>以下は、外国人労働者の雇用に関するよくある質問（FAQ）です</title>
+      <link>http://localhost:1313/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/faq/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Q1: 外国人労働者を雇用する際、どのような在留資格が必要ですか？ 
+    &lt;div id=&#34;q1-%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E8%80%85%E3%82%92%E9%9B%87%E7%94%A8%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%9C%A8%E7%95%99%E8%B3%87%E6%A0%BC%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#q1-%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E8%80%85%E3%82%92%E9%9B%87%E7%94%A8%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%9C%A8%E7%95%99%E8%B3%87%E6%A0%BC%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;A1: 外国人を雇用する場合、就労可能な在留資格を持っていることが必要です。具体的には、「技術・人文知識・国際業務」や「特定技能」などの在留資格があります。
+都道府県労働局(労働基準監督署、公共職業安定所)所在地一覧&lt;/p&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Q2: 外国人労働者を雇用した場合、どのような届出が必要ですか？ 
+    &lt;div id=&#34;q2-%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E8%80%85%E3%82%92%E9%9B%87%E7%94%A8%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%B1%8A%E5%87%BA%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#q2-%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E8%80%85%E3%82%92%E9%9B%87%E7%94%A8%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%B1%8A%E5%87%BA%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E3%81%99%E3%81%8B&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;A2: 労働施策総合推進法に基づき、外国人労働者の雇い入れや離職の際には、氏名、在留資格、在留期間等を確認し、ハローワークへ届け出ることが義務付けられています。
+都道府県労働局(労働基準監督署、公共職業安定所)所在地一覧&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>特定技能外国人とは？自動車運送業界での新たな可能性</title>
@@ -16,35 +83,32 @@
       
       <guid>http://localhost:1313/ssw/</guid>
       <description>&lt;p&gt;日本の中小規模のタクシー会社や貨物運送会社が抱える最大の課題の一つは人手不足です。その解決策として、特定技能外国人の雇用が注目されています。しかし、多くの企業が「外国人労働者を雇うのは難しいのでは？」と感じているのも事実です。実際には、特定技能外国人の採用は日本人を雇用する場合とほとんど変わりません。本記事では、外国人労働者を雇用することのシンプルさとそのメリットについて説明します。&lt;/p&gt;
-&lt;p&gt;外国人労働者の採用は日本人と変わらないシンプルさ&lt;/p&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;外国人労働者の採用は日本人と変わらないシンプルさ 
+    &lt;div id=&#34;%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E8%80%85%E3%81%AE%E6%8E%A1%E7%94%A8%E3%81%AF%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%A8%E5%A4%89%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%95&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E8%80%85%E3%81%AE%E6%8E%A1%E7%94%A8%E3%81%AF%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%A8%E5%A4%89%E3%82%8F%E3%82%89%E3%81%AA%E3%81%84%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%95&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
 &lt;p&gt;特定技能外国人を雇用する際、企業が行うべきステップは非常に簡単です。以下の4つのポイントを押さえるだけで、雇用プロセスをスムーズに進めることができます。&lt;/p&gt;
-&lt;p&gt;人材選定
-当社が外国人労働者の候補者を企業にご紹介します。面接を通じて、適性やスキルを確認するだけで大丈夫です。
-雇用契約の締結
-候補者が適切だと判断された場合、通常の雇用契約を結びます。特別な条件や複雑な書類は必要ありません。
-必要な書類の提出
-当社が、外国人労働者の就労に必要な書類を一括でサポートします。企業側で準備するのは最低限の書類のみです。
-雇用開始
-外国人労働者は、すでに運送業務に必要なスキルと資格を持っています。日本人と同じように即戦力として業務を開始できます。
-企業は、これらの基本的なステップを進めるだけで、外国人労働者を日本人労働者と同じようにスムーズに雇用できます。複雑な手続きや追加の負担を心配する必要はありません。&lt;/p&gt;
-&lt;p&gt;外国人労働者の能力と信頼性&lt;/p&gt;
-&lt;p&gt;特定技能外国人は、すでに日本での業務に必要なスキルや資格を持つ即戦力の人材です。これには以下の特徴があります：&lt;/p&gt;
-&lt;p&gt;運転や貨物取扱いの高い技術
-特定技能外国人は、事前に専門的な試験をクリアしており、自動車運送業務に必要な技術を習得しています。彼らは、厳しい交通状況で培った経験を活かし、安全で効率的な業務を遂行します。
-日本語での基本的なコミュニケーション能力
-雇用開始時点で、日常業務に必要な日本語能力を備えています。これにより、職場でのコミュニケーションや業務指示の理解がスムーズに進みます。
-勤勉さと適応能力
-外国人労働者は、文化や環境の違いに迅速に対応できる柔軟性を持っています。彼らの勤勉さは、企業にとって信頼できる資産となります。
-外国人労働者を雇用することのメリット&lt;/p&gt;
-&lt;p&gt;外国人労働者の採用は、企業に多くのメリットをもたらします。&lt;/p&gt;
-&lt;p&gt;人手不足の解消
-外国人労働者の採用は、慢性的な人手不足を補う効果的な手段です。即戦力として業務を開始できるため、現場の負担を軽減します。
-生産性の向上
-高いスキルと勤勉な姿勢を持つ外国人労働者は、企業の業務効率を向上させ、生産性を高めます。
-多文化共生の推進
-外国人労働者の雇用は、企業内に多文化的な視点をもたらし、組織の活性化につながります。これは、チームワークやイノベーションの向上にも寄与します。
-まとめ&lt;/p&gt;
-&lt;p&gt;特定技能外国人の雇用は、日本人を採用する場合とほとんど変わらない簡単なプロセスで進めることができます。彼らは即戦力として高いスキルと勤勉さを持ち、企業の人手不足を解消するだけでなく、業務効率の向上にも貢献します。当社は、採用プロセス全体を全面的にサポートし、企業が安心して外国人労働者を受け入れられるようお手伝いします。&lt;/p&gt;</description>
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;1.人材選定 
+    &lt;div id=&#34;1%E4%BA%BA%E6%9D%90%E9%81%B8%E5%AE%9A&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1%E4%BA%BA%E6%9D%90%E9%81%B8%E5%AE%9A&#34; aria-label=&#34;アンカー&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;アーチェン（Aacheng）が外国人労働者の候補者を企業にご紹介します。面接を通じて、適性やスキルを確認するだけで大丈夫です。&lt;/p&gt;</description>
       
     </item>
     
