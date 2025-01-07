@@ -29,7 +29,7 @@
 [[main]]
   name = "導入の流れ"
   parent = "自動車運送業向けサービス"
-  pageRef = "process"
+  pageRef = "flow"
   weight = 20
 
 #[[subnavigation]]
