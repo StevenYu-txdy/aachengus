@@ -10,7 +10,7 @@ title = "株式会社アーヘン"
   rtl = false
   dateFormat = "2 January 2006"
    logo = "img/logo.png"
-   secondaryLogo = "img/logo.png"
+  #secondaryLogo = "img/logo.png"
   # description = "世界の才能を活かし、日本の未来を動かす"
    copyright = "Copyright © 2014–2025 Aachen Ltd. All rights reserved."
 
@@ -18,7 +18,7 @@ title = "株式会社アーヘン"
    name = "世界の才能を活かし 日本の未来を動かす"
 #   email = "youremail@example.com"
 #   image = "img/logo.png"
-   imageQuality = 96
+#   imageQuality = 96
    headline = "世界には、努力しても報われない環境で頑張り続ける人々がまだ数多く存在します。<br> 日本では、そのような勤勉な人材が正当に評価され、企業と共に新たな価値を創り出せる土壌が整いつつあります。<br>私たちはそんな人材と企業をつなぎ、日本を次のステージへ引き上げるお手伝いをしています。"
 #   bio = "A little bit about you"
    links = [

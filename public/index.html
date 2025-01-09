@@ -35,8 +35,8 @@
     integrity="sha512-4nhoqxSF9&#43;17BrEitJgL04sZUm64996IUYEgTSjwSgxH6cM07/GaBsAnjrL/hBW5g6XQ&#43;4D9a1aAySZFfMYcVw==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.72fa16a12cb1a5f3393c41f43f12bfe2065fb6713582d1ae82dc3f4d851ac6202457dae6dd39f4899b22839d8c1edee03d3896a212f513768f2a99a13af3eaa9.js"
-    integrity="sha512-cvoWoSyxpfM5PEH0PxK/4gZftnE1gtGugtw/TYUaxiAkV9rm3Tn0iZsig52MHt7gPTiWohL1E3aPKpmhOvPqqQ=="></script>
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
   
   
   
@@ -540,13 +540,13 @@
                 <div class="fixed inset-x-0 top-0" style="z-index:-10">
                     
                     
+                    
                         
                             
                         
                     
                     
-                    
-                    <img class="w-full h-[1000px] object-cover m-0 nozoom" src="/TRAIN.jpg" role="presentation">
+                    <img class="w-full h-[1000px] object-cover m-0 nozoom" src="/VIEW.jpg" role="presentation">
                     <div
                         class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
                     </div>
@@ -927,6 +927,15 @@
 
 
 </section>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
 
 
   
