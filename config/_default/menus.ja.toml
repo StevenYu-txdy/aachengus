@@ -11,27 +11,62 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "自動車運送業向けサービス"
-  pageRef = "service"
+  name = "会社概要"
+  pageRef = "aboutus"
+  weight = 10
+  
+[[main]]
+  name = "提供可能な人材"
+  pageRef = "ssw"
   weight = 20
 
+[[main]]
+  name = "自動車運送業"
+  parent = "提供可能な人材"
+  pageRef = "transportation"
+  weight = 21
+  
+[[main]]
+  name = "宿泊・ホテル業の人材"
+  parent = "提供可能な人材"
+  pageRef = "hotel"
+  weight = 22
+  
+[[main]]
+  name = "飲食業の人材"
+  parent = "提供可能な人材"
+  pageRef = "food"
+  weight = 23
+  
+[[main]]
+  name = "建設業の人材"
+  parent = "提供可能な人材"
+  pageRef = "build"
+  weight = 24
+  
 [[main]]
   name = "外国人採用とは"
   pageRef = "employ-foreigner"
-  weight = 10
+  weight = 30
 
 [[main]]
-  name = "特定技能外国人"
-  parent = "自動車運送業向けサービス"
-  pageRef = "ssw"
-  weight = 10
-
+  name = "中国人採用のメリット"
+  parent = "外国人採用とは"
+  pageRef = "merits"
+  weight = 31
+  
 [[main]]
-  name = "導入の流れ"
-  parent = "自動車運送業向けサービス"
+  name = "採用開始までの流れ"
+  parent = "外国人採用とは"
   pageRef = "flow"
-  weight = 20
-
+  weight = 32
+  
+[[main]]
+  name = "よくある質問"
+  parent = "外国人採用とは"
+  pageRef = "faq"
+  weight = 33
+  
 #[[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
@@ -44,14 +79,9 @@
 #  weight = 20
 
 [[main]]
-  name = "よくある質問"
-  pageRef = "faq"
-  weight = 30
-
-[[main]]
-  name = "無料お問い合わせ"
+  name = "お問い合わせ"
   pageRef = "contact"
-  weight = 30
+  weight = 40
 
 
 # -- Footer Menu --
@@ -60,11 +90,16 @@
 
 
  [[footer]]
-   name = "無料で資料を受け取る"
-   pageRef = "サービス資料無料ダウンロード"
+   name = "500時間を超える徹底事前トレーニング"
+   pageRef = "training"
    weight = 10
 
  [[footer]]
    name = "最短1ヶ月で入社実現可能"
    pageRef = "onemonth"
    weight = 20
+    
+[[footer]]
+  name = "多彩な就労資格に幅広く対応"
+  pageRef = "visakind"
+  weight = 30

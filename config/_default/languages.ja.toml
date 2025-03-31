@@ -11,16 +11,16 @@ title = "アーチェン国際株式会社"
   dateFormat = "2 January 2006"
    logo = "img/logo.png"
   #secondaryLogo = "img/logo.png"
-  # description = "世界の才能を活かし、日本の未来を動かす"
+  #description = "世界の才能を活かし 日本の未来を動かす"
    copyright = "Copyright © 2014–2025 Aachen Ltd. All rights reserved."
 
  [params.author]
-   name = "世界の才能を活かし 日本の未来を動かす"
+   name = "勤勉で意欲溢れる外国人材を企業の即戦力としてご紹介"
 #   email = "youremail@example.com"
 #   image = "img/logo.png"
 #   imageQuality = 96
-   headline = "世界には、努力しても報われない環境で頑張り続ける人々がまだ数多く存在します。<br> 日本では、そのような勤勉な人材が正当に評価され、企業と共に新たな価値を創り出せる土壌が整いつつあります。<br>私たちはそんな人材と企業をつなぎ、日本を次のステージへ引き上げるお手伝いをしています。"
-#   bio = "A little bit about you"
+   headline = "厳しい環境のなか週6日、朝9時から夜9時まで必死に働き続けても、日本の数分の一しか給与を得られない！<br> 中国には、このような現実を抱えながら日本での活躍機会を心から願う、情熱的で勤勉な人材が数多く存在します！<br>私たちはこうした優秀で努力家な中国人材と労働力不足に直面する日本企業を繋ぎ<br>日本経済の活性化とより良い社会づくりに貢献していきます！<br><br>🔹『徹底的な事前トレーニング』<br>🔹『スピーディーな人材確保』<br>🔹『多様な就労資格に幅広く対応』"
+   bio = "A little bit about you"
    links = [
      { email = "info@aacheng.us" },
 #     { link = "https://link-to-some-website.com/" },
