@@ -11,61 +11,68 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "会社概要"
+  name = "会社案内"
   pageRef = "aboutus"
   weight = 10
+
+[[main]]
+  name    = "米国本社"
+  parent  = "会社案内"
+  pageRef = "usoffice"
+  weight  = 11
+
+[[main]]
+  name    = "中国事務所"
+  parent  = "会社案内"
+  pageRef = "cnoffice"
+  weight  = 12
   
 [[main]]
-  name = "提供可能な人材"
+  name = "技能人材紹介"
   pageRef = "ssw"
   weight = 20
 
 [[main]]
   name = "自動車運送業"
-  parent = "提供可能な人材"
+  parent = "技能人材紹介"
   pageRef = "transportation"
   weight = 21
   
 [[main]]
   name = "宿泊・ホテル業の人材"
-  parent = "提供可能な人材"
+  parent = "技能人材紹介"
   pageRef = "hotel"
   weight = 22
   
 [[main]]
   name = "飲食業の人材"
-  parent = "提供可能な人材"
+  parent = "技能人材紹介"
   pageRef = "food"
   weight = 23
   
 [[main]]
   name = "建設業の人材"
-  parent = "提供可能な人材"
+  parent = "技能人材紹介"
   pageRef = "build"
   weight = 24
   
 [[main]]
-  name = "外国人採用とは"
+  name = "オフィス人材紹介"
   pageRef = "employ-foreigner"
   weight = 30
 
 [[main]]
   name = "中国人採用のメリット"
-  parent = "外国人採用とは"
+  parent = "技能人材紹介"
   pageRef = "merits"
   weight = 31
   
 [[main]]
   name = "採用開始までの流れ"
-  parent = "外国人採用とは"
+  parent = "技能人材紹介"
   pageRef = "flow"
   weight = 32
-  
-[[main]]
-  name = "よくある質問"
-  parent = "外国人採用とは"
-  pageRef = "faq"
-  weight = 33
+ 
   
 #[[subnavigation]]
 #  name = "An interesting topic"
@@ -80,9 +87,26 @@
 
 [[main]]
   name = "お問い合わせ"
-  pageRef = "contact"
+  pageRef = "askinfo"
   weight = 40
 
+[[main]]
+  name = "今すぐ相談"
+  parent = "お問い合わせ"
+  pageRef = "contact"
+  weight = 41
+
+[[main]]
+  name = "よくある質問"
+  parent = "お問い合わせ"
+  pageRef = "faq"
+  weight = 42
+
+[[main]]
+  name    = "ニュース"
+  parent = "お問い合わせ"
+  pageRef = "news"
+  weight  = 43
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
