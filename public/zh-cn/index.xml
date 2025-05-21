@@ -1,13 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aacheng Ltd.</title>
+    <title>Aacheng Limited</title>
     <link>http://localhost:1313/zh-cn/</link>
-    <description>Recent content on Aacheng Ltd.</description>
+    <description>Recent content on Aacheng Limited</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 </copyright>
-    <atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2014–2025 Aachen Ltd. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>🇯🇵 日本就业创业实战特训营：&lt;br&gt;数字移民与事业拓展加速器(5月)</title>
+      <link>http://localhost:1313/zh-cn/japan-innovation-tour/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/japan-innovation-tour/</guid>
+      <description>官方背书 · 小团高效 · 创业考察 + 招聘会 + 跑步挑战，一站式体验日本商业与文化。</description>
+      
+    </item>
+    
+    <item>
+      <title>联系我们</title>
+      <link>http://localhost:1313/zh-cn/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/contact/</guid>
+      <description>&lt;form 
+  action=&#34;https://formspree.io/f/xgvkqvld&#34;
+  method=&#34;POST&#34;
+  class=&#34;max-w-xl mx-auto space-y-6 bg-white p-6 rounded-lg shadow&#34;
+&gt;
+  
+  &lt;input type=&#34;hidden&#34; name=&#34;form-name&#34; value=&#34;consult&#34;&gt;
+
+  
+  &lt;div class=&#34;flex flex-col&#34;&gt;
+    &lt;label class=&#34;mb-2 font-medium text-gray-700&#34;&gt;姓名&lt;/label&gt;
+    &lt;input 
+      name=&#34;姓名&#34; 
+      type=&#34;text&#34; 
+      placeholder=&#34;请输入姓名&#34; 
+      required 
+      class=&#34;form-input w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500&#34;
+    /&gt;
+  &lt;/div&gt;
+
+  
+  &lt;div class=&#34;flex flex-col&#34;&gt;
+    &lt;label class=&#34;mb-2 font-medium text-gray-700&#34;&gt;电话&lt;/label&gt;
+    &lt;input 
+      name=&#34;电话&#34; 
+      type=&#34;tel&#34; 
+      placeholder=&#34;请输入手机&#34; 
+      required 
+      class=&#34;form-input w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500&#34;
+    /&gt;
+  &lt;/div&gt;
+
+  
+  &lt;div class=&#34;flex flex-col&#34;&gt;
+    &lt;label class=&#34;mb-2 font-medium text-gray-700&#34;&gt;微信&lt;/label&gt;
+    &lt;input 
+      name=&#34;微信&#34; 
+      type=&#34;text&#34; 
+      placeholder=&#34;请输入微信号&#34; 
+      class=&#34;form-input w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500&#34;
+    /&gt;
+  &lt;/div&gt;
+
+  
+  &lt;div class=&#34;flex flex-col&#34;&gt;
+    &lt;label class=&#34;mb-2 font-medium text-gray-700&#34;&gt;欲咨询项目&lt;/label&gt;
+    &lt;select 
+      name=&#34;咨询项目&#34; 
+      required 
+      class=&#34;form-select w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500&#34;
+    &gt;
+      &lt;option value=&#34;&#34; disabled selected&gt;请选择咨询项目&lt;/option&gt;
+      &lt;option value=&#34;日本考察&#34;&gt;日本考察&lt;/option&gt;
+      &lt;option value=&#34;在日创业&#34;&gt;在日创业&lt;/option&gt;
+      &lt;option value=&#34;数字移民&#34;&gt;数字移民&lt;/option&gt;
+      &lt;option value=&#34;特定技能&#34;&gt;特定技能&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+
+  
+  &lt;div class=&#34;flex flex-col&#34;&gt;
+    &lt;label class=&#34;mb-2 font-medium text-gray-700&#34;&gt;描述问题&lt;/label&gt;
+    &lt;textarea 
+      name=&#34;问题&#34; 
+      rows=&#34;5&#34; 
+      placeholder=&#34;请简要描述您想咨询的内容&#34; 
+      class=&#34;form-input w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500&#34;
+    &gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+
+  
+  &lt;button 
+    type=&#34;submit&#34; 
+    class=&#34;w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition&#34;
+  &gt;
+    提交预约
+  &lt;/button&gt;
+&lt;/form&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>
