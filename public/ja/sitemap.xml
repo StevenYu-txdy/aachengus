@@ -26,6 +26,16 @@
     <loc>http://localhost:1313/usoffice/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/usoffice/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/usoffice/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/flow/</loc>
@@ -41,6 +51,16 @@
     <loc>http://localhost:1313/cnoffice/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/cnoffice/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="http://localhost:1313/cnoffice/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/ssw/</loc>

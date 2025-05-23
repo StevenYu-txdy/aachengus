@@ -1,0 +1,2 @@
+{{ $css := resources.Get "css/carousel.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
