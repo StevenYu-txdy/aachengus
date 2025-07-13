@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Header = () => {
   const pathname = usePathname()
-  const locale = pathname?.startsWith('/zh') ? 'zh' : 'en'
+  const locale = pathname?.startsWith('/zh') ? 'zh' : pathname?.startsWith('/ja') ? 'ja' : 'en'
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isLangOpen, setIsLangOpen] = useState(false)
 
@@ -22,6 +22,11 @@ const Header = () => {
       { name: 'Live in Japan', href: '/en/services/live-in-japan' },
       { name: 'Work in Japan', href: '/en/services/work-in-japan' },
       { name: 'Contact Us', href: '/en/contact' }
+    ],
+    ja: [
+      { englishTitle: 'ABOUT US', name: '私たちについて', href: '/ja/aboutus' },
+      { englishTitle: 'INNOVATION TOUR', name: '日本革新ツアー', href: '/ja/japan-innovation-tour' },
+      { englishTitle: 'CONTACT US', name: 'お問い合わせ', href: '/ja/contact' }
     ]
   }
 
@@ -29,12 +34,14 @@ const Header = () => {
 
   const companyName = {
     zh: 'AACHENG LIMITED',
-    en: 'AACHENG LIMITED'
+    en: 'AACHENG LIMITED',
+    ja: 'AACHENG LIMITED'
   }
 
   const languageOptions = [
     { code: 'zh', name: '中文' },
-    { code: 'en', name: 'English' }
+    { code: 'en', name: 'English' },
+    { code: 'ja', name: '日本語' }
   ]
 
   return (
