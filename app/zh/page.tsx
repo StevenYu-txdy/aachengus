@@ -18,17 +18,9 @@ export default function Home() {
       <section className="relative h-[60vh] md:h-[80vh] lg:h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700">
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
         
-        {/* Hero Content */}
-        <div className="relative z-10 h-full flex items-center justify-center text-white">
-          <div className="text-center px-4" data-aos="fade-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              海外的资本与人材で<br />
-              <span className="text-yellow-300">日本の地方を未来へ</span>
-            </h1>
-            <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-              在喧嚣与内卷之外，一衣带水的日本，为您和家人提供一个确定、安心的未来
-            </p>
-          </div>
+        {/* Hero Content - Image will contain text */}
+        <div className="relative z-10 h-full flex items-center justify-center">
+          {/* Hero image will be added here later with embedded text */}
         </div>
 
         <div className="absolute bottom-16 md:bottom-20 lg:bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
@@ -48,6 +40,15 @@ export default function Home() {
               />
             </svg>
           </div>
+        </div>
+      </section>
+
+      {/* Mission Statement */}
+      <section className="py-12 md:py-20 bg-white" data-aos="fade-up">
+        <div className="container mx-auto px-4">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-relaxed text-gray-800 max-w-4xl mx-auto text-center">
+            在喧嚣与内卷之外，一衣带水的日本，为您和家人提供一个确定、安心的未来。
+          </h1>
         </div>
       </section>
 
