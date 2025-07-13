@@ -1,14 +1,6 @@
-'use client';
+export const dynamic = 'force-static'
+import ComingSoon from '../../components/ComingSoon'
 
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-
-export default function AboutUsPage() {
-  const router = useRouter();
-  
-  useEffect(() => {
-    router.replace('/aboutus');
-  }, [router]);
-
-  return null;
+export default function AboutUsEnPage() {
+  return <ComingSoon locale="en" />
 }

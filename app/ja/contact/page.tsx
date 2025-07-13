@@ -1,7 +1,6 @@
-'use client'
+export const dynamic = 'force-static'
+import ComingSoon from '../../components/ComingSoon'
 
-import ComingSoon from '@/app/components/ComingSoon'
-
-export default function ContactPage() {
+export default function ContactJaPage() {
   return <ComingSoon locale="ja" />
-} 
+}

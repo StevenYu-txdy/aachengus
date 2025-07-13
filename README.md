@@ -42,6 +42,8 @@ The fastest way to deploy this template is through Vercel:
    ```
 5. Deploy! 🎉
 
+For AWS Amplify deployments with `output: 'export'`, the artifact directory must be set to `out/`. See [DEPLOY.md](./DEPLOY.md) for details.
+
 ## 💻 Local Development
 
 1. Clone the repository:
