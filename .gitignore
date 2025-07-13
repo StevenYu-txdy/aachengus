@@ -61,6 +61,8 @@ Thumbs.db
 404/
 en/
 ja/
+!app/en/
+!app/ja/
 conditions/
 services/
 *.png
