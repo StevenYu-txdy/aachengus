@@ -7,7 +7,6 @@ import { Toaster } from "@/components/ui/toaster";
 import { createMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 
-import { redirect } from "next/navigation";
 import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
@@ -22,10 +21,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Redirect root to Chinese version
-  if (typeof window !== "undefined" && window.location.pathname === "/") {
-    redirect("/zh");
-  }
 
   return (
     // lang attribute will be set by app/[locale]/layout.tsx if it renders <html>
