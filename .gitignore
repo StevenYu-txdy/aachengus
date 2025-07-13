@@ -65,6 +65,8 @@ ja/
 !app/ja/
 conditions/
 services/
+!app/en/services/
+!app/ja/services/
 *.png
 *.jpg
 *.ico
