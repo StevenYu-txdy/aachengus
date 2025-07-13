@@ -11,8 +11,8 @@ import { redirect } from "next/navigation";
 import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "ADLVA",
-  description: "ADLVA - 日本医疗创新",
+  title: "Aacheng Limited - Your Gateway to Japan",
+  description: "Live, Work, and Discover Japan - Professional immigration and business services",
 };
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,9 +22,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Redirect root to Japanese version
+  // Redirect root to Chinese version
   if (typeof window !== "undefined" && window.location.pathname === "/") {
-    redirect("/ja");
+    redirect("/zh");
   }
 
   return (

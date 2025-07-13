@@ -6,25 +6,19 @@ import { useState } from 'react'
 
 const Header = () => {
   const pathname = usePathname()
-  const locale = pathname?.startsWith('/ja') ? 'ja' : pathname?.startsWith('/zh') ? 'zh' : 'en'
+  const locale = pathname?.startsWith('/zh') ? 'zh' : 'en'
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isLangOpen, setIsLangOpen] = useState(false)
 
   // Navigation items for different locales
   const navigationItems = {
     zh: [
-      { englishTitle: 'ABOUT US', name: '关于我们', href: '/ja/aboutus' },
+      { englishTitle: 'ABOUT US', name: '关于我们', href: '/zh/aboutus' },
       { englishTitle: 'INNOVATION TOUR', name: '日本考察项目', href: '/zh/japan-innovation-tour' },
       { englishTitle: 'CONTACT US', name: '联系我们', href: '/zh/contact' }
     ],
-    ja: [
-      { englishTitle: 'ABOUT US', name: '会社案内', href: '/ja/aboutus' },
-      { englishTitle: 'SKILLED WORKERS', name: '技能人材紹介', href: '/ja/services/skilled-workers' },
-      { englishTitle: 'OFFICE WORKERS', name: 'オフィス人材紹介', href: '/ja/services/office-workers' },
-      { englishTitle: 'CONTACT US', name: 'お問い合わせ', href: '/ja/contact' }
-    ],
     en: [
-      { name: 'About Us', href: '/aboutus' },
+      { name: 'About Us', href: '/en/aboutus' },
       { name: 'Live in Japan', href: '/en/services/live-in-japan' },
       { name: 'Work in Japan', href: '/en/services/work-in-japan' },
       { name: 'Contact Us', href: '/en/contact' }
@@ -35,13 +29,11 @@ const Header = () => {
 
   const companyName = {
     zh: 'AACHENG LIMITED',
-    ja: 'AACHENG LIMITED',
     en: 'AACHENG LIMITED'
   }
 
   const languageOptions = [
     { code: 'zh', name: '中文' },
-    { code: 'ja', name: '日本語' },
     { code: 'en', name: 'English' }
   ]
 
