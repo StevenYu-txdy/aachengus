@@ -4,7 +4,26 @@ frontend:
     preBuild:
       commands:
         - npm ci --cache .npm --prefer-offline
-        - echo 'const nextConfig = { output: "export", trailingSlash: true, images: { unoptimized: true, remotePatterns: [{ protocol: "https", hostname: "**" }] }, eslint: { ignoreDuringBuilds: true } }; module.exports = nextConfig;' > next.config.js
+        - |
+          cat > next.config.js << 'EOF'
+          const nextConfig = {
+            output: 'export',
+            trailingSlash: true,
+            images: {
+              unoptimized: true,
+              remotePatterns: [
+                {
+                  protocol: 'https',
+                  hostname: '**',
+                },
+              ],
+            },
+            eslint: {
+              ignoreDuringBuilds: true,
+            },
+          };
+          module.exports = nextConfig;
+          EOF
     build:
       commands:
         - npm run build
