@@ -35,36 +35,35 @@ export default function ContactPage() {
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
-              {/* Japan Office */}
-              <div className="bg-gray-50 p-8 rounded-xl" data-aos="fade-up" data-aos-delay="100">
-                <h3 className="text-xl font-bold mb-4 text-blue-600">Japan Headquarters</h3>
-                <div className="space-y-3 text-gray-700">
-                  <p><strong>Address:</strong> Tokyo, Japan</p>
-                  <p><strong>Phone:</strong> +81-XX-XXXX-XXXX</p>
-                  <p><strong>Email:</strong> japan@aacheng.com</p>
-                  <p><strong>Business Hours:</strong> Mon-Fri 9:00-18:00 JST</p>
-                </div>
-              </div>
-              
               {/* China Office */}
-              <div className="bg-gray-50 p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
-                <h3 className="text-xl font-bold mb-4 text-green-600">China Office</h3>
+              <div className="bg-gray-50 p-8 rounded-xl" data-aos="fade-up" data-aos-delay="100">
+                <h3 className="text-xl font-bold mb-4 text-green-600">📍 China Office</h3>
                 <div className="space-y-3 text-gray-700">
-                  <p><strong>Address:</strong> Shanghai, China</p>
-                  <p><strong>Phone:</strong> +86-XXX-XXXX-XXXX</p>
-                  <p><strong>Email:</strong> china@aacheng.com</p>
+                  <p><strong>Address:</strong> 杭州市滨江区泰安路199号浙江农资大厦2103</p>
+                  <p><strong>Email:</strong> info@aachengus.com</p>
                   <p><strong>Business Hours:</strong> Mon-Fri 9:00-18:00 CST</p>
                 </div>
               </div>
               
               {/* US Office */}
-              <div className="bg-gray-50 p-8 rounded-xl" data-aos="fade-up" data-aos-delay="300">
-                <h3 className="text-xl font-bold mb-4 text-purple-600">US Office</h3>
+              <div className="bg-gray-50 p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
+                <h3 className="text-xl font-bold mb-4 text-purple-600">📍 US Office</h3>
                 <div className="space-y-3 text-gray-700">
-                  <p><strong>Address:</strong> Denver, Colorado, USA</p>
-                  <p><strong>Phone:</strong> +1-XXX-XXX-XXXX</p>
-                  <p><strong>Email:</strong> usa@aacheng.com</p>
+                  <p><strong>Address:</strong> 1500 N GRANT ST STE C DENVER CO</p>
+                  <p><strong>Phone:</strong> +1 702-426-5298</p>
+                  <p><strong>Email:</strong> info@aachengus.com</p>
                   <p><strong>Business Hours:</strong> Mon-Fri 9:00-17:00 MST</p>
+                </div>
+              </div>
+              
+              {/* Japan Office */}
+              <div className="bg-gray-50 p-8 rounded-xl" data-aos="fade-up" data-aos-delay="300">
+                <h3 className="text-xl font-bold mb-4 text-blue-600">📍 Japan Office</h3>
+                <div className="space-y-3 text-gray-700">
+                  <p><strong>Address:</strong> 東京都品川区上大崎3-1-1 目黒セントラルスクエア</p>
+                  <p><strong>Phone:</strong> +81 70-9328-4415 (SMS only)</p>
+                  <p><strong>Email:</strong> info@aachengus.com</p>
+                  <p><strong>Business Hours:</strong> Mon-Fri 9:00-18:00 JST</p>
                 </div>
               </div>
             </div>

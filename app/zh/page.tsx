@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import Image from 'next/image'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -18,9 +19,16 @@ export default function Home() {
       <section className="relative h-[60vh] md:h-[80vh] lg:h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700">
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
         
-        {/* Hero Content - Image will contain text */}
+        {/* Hero Content - Image with embedded text */}
         <div className="relative z-10 h-full flex items-center justify-center">
-          {/* Hero image will be added here later with embedded text */}
+          <Image
+            src="/hero-zh.jpg"
+            alt="Aacheng Limited - 您的日本之门"
+            width={1200}
+            height={600}
+            className="w-full h-full object-cover"
+            priority
+          />
         </div>
 
         <div className="absolute bottom-16 md:bottom-20 lg:bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce z-10">

@@ -16,8 +16,51 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[60vh] md:h-[80vh] lg:h-screen flex items-center justify-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-800">海外の資本と人材で、日本の地方を未来へ。</h1>
+      <section className="hero-section relative h-[60vh] md:h-[80vh] lg:h-screen bg-gradient-to-br from-emerald-600 via-teal-600 to-teal-700">
+        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+        
+        {/* Hero Content - Image with embedded text */}
+        <div className="relative z-10 h-full">
+          <Image
+             src="/hero-jp.jpg"
+             alt="海外の資本と人材で、日本の地方を未来へ"
+             width={1200}
+             height={600}
+             className="w-full h-full object-cover"
+             priority
+           />
+           
+           {/* Hero Text Overlay */}
+           <div className="absolute inset-0 flex items-center justify-center">
+             <div className="text-center px-4 sm:px-6 lg:px-8">
+               <h1 className="hero-text hero-text-mobile text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-4 drop-shadow-2xl leading-tight">
+                  海外の資本と人材で、日本の地方を未来へ
+                </h1>
+                <p className="hero-subtitle-mobile text-sm sm:text-base md:text-lg lg:text-xl text-white/90 drop-shadow-lg max-w-2xl mx-auto leading-relaxed">
+                  グローバルネットワークで地域を活性化
+                </p>
+             </div>
+           </div>
+        </div>
+
+        <div className="absolute bottom-16 md:bottom-20 lg:bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
+          <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-full p-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 md:h-8 md:w-8 text-white drop-shadow-lg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
+              />
+            </svg>
+          </div>
+        </div>
       </section>
       {/* 必要に応じて日本語のコンテンツを追加してください */}
 

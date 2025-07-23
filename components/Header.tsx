@@ -20,12 +20,12 @@ const Header = () => {
     en: [
       { name: 'About Us', href: '/en/aboutus' },
       { name: 'Live in Japan', href: '/en/services/live-in-japan' },
-      { name: 'Work in Japan', href: '/en/services/work-in-japan' },
+      { name: 'Japan Deep Dive', href: '/en/japan-deep-dive' },
       { name: 'Contact Us', href: '/en/contact' }
     ],
     ja: [
       { englishTitle: 'ABOUT US', name: '私たちについて', href: '/ja/aboutus' },
-      { englishTitle: 'INNOVATION TOUR', name: '日本革新ツアー', href: '/ja/japan-innovation-tour' },
+      { englishTitle: 'INNOVATION TOUR', name: '人材紹介', href: '/ja/japan-innovation-tour' },
       { englishTitle: 'CONTACT US', name: 'お問い合わせ', href: '/ja/contact' }
     ]
   }

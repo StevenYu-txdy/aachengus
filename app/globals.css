@@ -95,3 +95,102 @@ body {
 main {
   min-height: calc(100vh - 4rem);
 }
+
+/* Mobile and WeChat Browser Optimizations */
+@layer utilities {
+  /* Prevent zoom on input focus in iOS Safari */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    font-size: 16px;
+  }
+  
+  /* WeChat browser specific optimizations */
+  @media screen and (max-width: 768px) {
+    /* Prevent horizontal scroll */
+    body {
+      overflow-x: hidden;
+    }
+    
+    /* Optimize touch targets for mobile */
+    button,
+    a,
+    [role="button"] {
+      min-height: 44px;
+      min-width: 44px;
+    }
+    
+    /* Better text rendering on mobile */
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+    
+    /* Prevent text size adjustment in landscape */
+    html {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    
+    /* Optimize hero text for mobile */
+    .hero-text-mobile {
+      font-size: clamp(1.25rem, 4vw, 2.5rem);
+      line-height: 1.2;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+    
+    .hero-subtitle-mobile {
+      font-size: clamp(0.875rem, 3vw, 1.25rem);
+      line-height: 1.4;
+    }
+  }
+  
+  /* WeChat WebView specific fixes */
+  @supports (-webkit-touch-callout: none) {
+    /* iOS Safari and WeChat iOS */
+    .hero-section {
+      /* Fix viewport height issues in mobile browsers */
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+    }
+  }
+  
+  /* Android WeChat browser optimizations */
+  @media screen and (max-width: 768px) and (orientation: portrait) {
+    .hero-section {
+      /* Ensure proper height on Android */
+      height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
+    }
+  }
+  
+  /* Improve readability on small screens */
+  @media screen and (max-width: 480px) {
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+    /* Optimize card layouts for mobile */
+    .mobile-card {
+      margin-bottom: 1rem;
+      padding: 1.5rem 1rem;
+    }
+    
+    /* Better spacing for mobile */
+    .mobile-section {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+  
+  /* High DPI display optimizations */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-text {
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

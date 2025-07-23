@@ -49,7 +49,7 @@ export default function ContactZhPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">微信</h3>
               <p className="text-lg text-gray-700 font-mono">
-                aacheng2024
+                hongkongjobz
               </p>
             </div>
 
@@ -76,9 +76,9 @@ export default function ContactZhPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">地址</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                美国科罗拉多州丹佛市<br/>
-                州议会大厦正面<br/>
-                Aacheng Limited
+                杭州市滨江区泰安路199号<br/>
+                浙江农资大厦<br/>
+                2130
               </p>
             </div>
           </div>
@@ -88,8 +88,8 @@ export default function ContactZhPage() {
             <div className="bg-gradient-to-r from-red-50 to-red-100 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">营业时间</h3>
               <p className="text-lg text-gray-700">
-                周一至周五：9:00 AM - 6:00 PM (MST)<br/>
-                周六：10:00 AM - 4:00 PM (MST)<br/>
+                周一至周五：9:00 AM - 6:00 PM <br/>
+                周六：10:00 AM - 4:00 PM <br/>
                 周日：休息
               </p>
             </div>

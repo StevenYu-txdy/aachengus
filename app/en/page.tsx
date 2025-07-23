@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -61,10 +62,31 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen relative">
       {/* Hero Section */}
-      <section className="relative h-[60vh] md:h-[80vh] lg:h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-green-500 text-white overflow-hidden">
-        <div className="text-center z-10" data-aos="fade-up">
-          <h1 className="text-3xl md:text-4xl font-black mb-4">Live, Work & Discover Japan</h1>
-          <p className="text-lg md:text-xl opacity-90" data-aos="fade-up" data-aos-delay="200">Your Gateway to the Rising Sun</p>
+      <section className="hero-section relative h-[60vh] md:h-[80vh] lg:h-screen bg-gradient-to-r from-blue-500 to-green-500 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+        
+        {/* Hero Content - Image with embedded text */}
+        <div className="relative z-10 h-full">
+          <Image
+            src="/hero-jp.jpg"
+            alt="Live, Work & Discover Japan - Your Gateway to the Rising Sun"
+            width={1200}
+            height={600}
+            className="w-full h-full object-cover"
+            priority
+          />
+          
+          {/* Hero Text Overlay */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center px-4 sm:px-6 lg:px-8">
+              <h1 className="hero-text hero-text-mobile text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-white mb-4 drop-shadow-2xl leading-tight">
+                Live, Work, and Discover Japan
+              </h1>
+              <p className="hero-subtitle-mobile text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white/90 drop-shadow-lg max-w-2xl mx-auto leading-relaxed">
+                Your Gateway to the Rising Sun
+              </p>
+            </div>
+          </div>
         </div>
         
         {/* Initial scroll indicator - only show when not scrolled */}
