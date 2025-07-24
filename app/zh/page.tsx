@@ -16,13 +16,11 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[60vh] md:h-[80vh] lg:h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700">
-        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-        
-        {/* Hero Content - Image with embedded text */}
-        <div className="relative z-10 h-full flex items-center justify-center">
+      <section className="relative h-[60vh] md:h-[80vh] lg:h-screen">
+        {/* Hero Content - Image without text overlay */}
+        <div className="relative z-10 h-full">
           <Image
-            src="/hero-jp.jpg"
+            src="/hero-zh.jpg"
             alt="Aacheng Limited - 您的日本之门"
             width={1200}
             height={600}

@@ -62,9 +62,7 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen relative">
       {/* Hero Section */}
-      <section className="hero-section relative h-[60vh] md:h-[80vh] lg:h-screen bg-gradient-to-r from-blue-500 to-green-500 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-        
+      <section className="hero-section relative h-[60vh] md:h-[80vh] lg:h-screen text-white overflow-hidden">
         {/* Hero Content - Image with embedded text */}
         <div className="relative z-10 h-full">
           <Image
@@ -74,6 +72,8 @@ export default function Home() {
             height={600}
             className="w-full h-full object-cover"
             priority
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
           />
           
           {/* Hero Text Overlay */}
