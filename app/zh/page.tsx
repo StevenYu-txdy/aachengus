@@ -22,7 +22,7 @@ export default function Home() {
         {/* Hero Content - Image with embedded text */}
         <div className="relative z-10 h-full flex items-center justify-center">
           <Image
-            src="/hero-zh.jpg"
+            src="/hero-jp.jpg"
             alt="Aacheng Limited - 您的日本之门"
             width={1200}
             height={600}
